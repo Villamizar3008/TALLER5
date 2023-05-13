@@ -1,0 +1,208 @@
+:root{
+    --azulOscuro: #1b2a5c;
+    --blanco: #fff;
+    --negro: #000000;
+    --gris: #ddd;
+    --grisOscuro: #5a5a5a;
+    --rojo: #FF3E2B;
+    --morado: #5604F8;
+}
+
+body{
+    line-height: 1.5;
+    margin: 0 auto;
+}
+
+.texto-blanco{
+    color: var(--blanco);
+}
+
+.texto-negro{
+    color: var(--negro);
+}
+
+.no-margin{
+    margin: 0;
+}
+
+
+.grill{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.cuadroAzulP{
+    background-color: var(--azulOscuro);
+    color: var(--blanco);
+    padding: 0px 20px;
+}
+
+.cuadroNaranja{
+    background-color: var(--rojo);
+    color: var(--blanco);
+    padding: 20px;
+}
+
+.cuadroGris{
+    background-color: var(--gris);
+    color: var(--negro);
+}
+
+.imagen_mancuerna, .imagen_muñeco{
+    width: 70px;
+}
+
+.personaje{
+    padding: 0px 25px;
+}
+
+.agente{
+    grid-row: 2 / 4;
+    background-image: url('../imagenes/agente.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 30px;
+    color: var(--blanco);
+}
+
+.fondo_symbol{
+    background-image: url('../imagenes/symbol.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--morado);
+    color: var(--blanco);
+
+}
+
+.fondo_valo{
+
+    display: grid;
+    place-items: center;
+    grid-column: 2 / 4;
+    background-image: url('../imagenes/valorant.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: -60px;
+}
+
+.fondo_valo{
+    height: auto;
+}
+
+.texto_valorant{
+    font-size: 100px;
+    margin: 100px 0px;
+    text-align: center;
+    color: var(--blanco);
+    font-style: italic;
+    margin: 0;
+    letter-spacing: 5px
+}
+
+.texto_fitnes_pequeño{
+    color: var(--blanco);
+    margin: 0;
+    font-size: 17px;
+}
+
+.etiqueta_code{
+    margin-top: 60px;
+    grid-column: 2 / 4;
+    background-image: url('../imagenes/jett.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.display-block{
+    display: block;
+}
+
+.formulario{
+    grid-row: 2/4;
+    grid-column: 4;
+    background-color: var(--azulOscuro);
+    color: var(--blanco);
+}
+
+.formulario h3{
+    color: var(--blanco);
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+input[type="text"]{
+    height: 30px;
+}
+
+textarea{
+    height: 100px;
+    max-width: 250px;
+    min-width: 250px;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+input[type="text"], textarea{
+    width: 250px;
+    background-color: var(--azulOscuro);
+}
+
+::placeholder {
+    color: var(--blanco);
+}
+
+.mb{
+    margin-bottom: 30px;
+}
+
+.centrar-formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-rojo{
+    background-color: var(--rojo);
+    height: 35px;
+    border: none;
+    color: var(--blanco);
+    width: 100px;
+    font-weight: bold;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+}
+
+.fondo_gris{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 300;
+    margin: 0 auto;
+    width: 500px;
+    color: var(--blanco);
+    background-color: var(--grisOscuro);
+}
+
+.texto-center{
+    text-align: center;
+}
+
+.contenedor-centrado{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.flex-end{
+    display: flex;
+    justify-content: end;
+    width: 260px;
+}
+
+
+
+
+
